@@ -185,6 +185,7 @@ body, html {
     .image-container {
         width: 95%;
         margin: 20px;
+        margin-top:300px;
         order: -1; /* Move the image container to the top */
         overflow: hidden; /* Prevent scrolling on the body */
     }
