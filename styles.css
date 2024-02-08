@@ -183,10 +183,10 @@ body, html {
     }
 
     .image-container {
-        width: 95%;
+        height:50%;
         margin: 20px;
         margin-right:40px;
-        margin-top:300px;
+        margin-top:400px;
         order: -1; /* Move the image container to the top */
     }
 
