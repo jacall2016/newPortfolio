@@ -179,12 +179,13 @@ body, html {
     .content-container {
         flex-direction: column;
         width: 100%;
-        margin: 0; /* Remove margins for full width */
+        margin: 40; /* Remove margins for full width */
     }
 
     .image-container {
         width: 95%;
         margin: 20px;
+        margin-right:40px;
         margin-top:300px;
         order: -1; /* Move the image container to the top */
         overflow: hidden; /* Prevent scrolling on the body */
@@ -193,6 +194,6 @@ body, html {
     /* Adjust styles for the project container */
     .project-container {
         width: 95%;
-        margin: 20px; /* Remove margins for full width */
+        margin: 10px; /* Remove margins for full width */
     }
 }
