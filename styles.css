@@ -132,6 +132,9 @@ body, html {
     max-width: 100%; /* Set a maximum width for the project container */
 }
 
+.image-container {
+    overflow: hidden; /* Prevent scrolling on the body */
+}
 
 .project img,
 .project iframe {
@@ -164,4 +167,26 @@ body, html {
 .image-container::-webkit-scrollbar-thumb:hover,
 .project-container::-webkit-scrollbar-thumb:hover {
     background-color: rgba(255, 255, 255, 0.0); /* Adjust the color and opacity on hover */
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        width: 100%;
+        margin: 0; /* Remove margins for full width */
+    }
+
+    .image-container {
+        width: 95%;
+        margin: 20px;
+        order: -1; /* Move the image container to the top */
+        overflow: hidden; /* Prevent scrolling on the body */
+    }
+
+    /* Adjust styles for the project container */
+    .project-container {
+        width: 95%;
+        margin: 20px; /* Remove margins for full width */
+    }
 }
